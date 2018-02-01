@@ -1,0 +1,75 @@
+body {
+  color: rgb(130, 130, 130);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  width: 800px;
+  margin: 0 auto;
+  background: #eacda3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1, h2 {
+  color: rgb(111, 0, 0);
+}
+
+h1, h2, h3, p {
+  text-align: center;
+}
+
+#img-circle {
+  width :150px;
+  height: 150px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+img {
+  width :300;
+  margin: 20px;
+}
+
+.social-media {
+  display: inline-block;
+  padding: 20px;
+}
+
+.social-media p, a {
+  color: rgb(150, 150, 150);
+}
+
+.social-media p:hover, a:hover {
+  color: rgb(150, 0, 0);
+}
+
+.big-card {
+  background-color: rgb(300, 300, 300);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 1px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.project-card {
+  margin: 100px;
+  padding-bottom: 50px;
+}
+
+a {
+ text-decoration: none;
+}
+
+.red-button {
+  background-color: rgb(111, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(250, 250, 250);
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.color-link {
+  color: rgb(111, 0, 0);
+}
+
